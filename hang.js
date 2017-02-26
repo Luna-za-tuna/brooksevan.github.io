@@ -92,5 +92,6 @@ function compareWords(under) {
   }
   return true;
 }
-
+$( document ).ready(function() {
 $('#startbtn').click(main);
+});
